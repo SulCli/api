@@ -56,7 +56,7 @@ class EzTG
         } else {
             $ip = $_SERVER['REMOTE_ADDR'];
         }
-        if (($ip >= '149.154.164.0' && $ip <= '149.154.167.255') || ($ip >= '149.154.172.0' && $ip <= '149.154.175.255')) { //gram'''s ip : https://core.telegram.org/bots/webhooks
+        if (($ip >= '149.154.160.0' && $ip <= '149.154.175.255') || ($ip >= '91.108.4.0' && $ip <= '91.108.7.255')) { //gram'''s ip : https://core.telegram.org/bots/webhooks
             return true;
         } else {
             return false;
